@@ -84,3 +84,6 @@ app.get('/api/jokes/celebrity', (req, res) => {
  ];
  res.json(CelebrityJokes);
 });
+
+app.listen(3333);
+console.log('Listening on localhost:3333');
